@@ -27,8 +27,8 @@ const postVideo = (req, res, next) => {
         let video = {
             user : user,
             file : {
-                view : `https://clone-you-tube.herokuapp.com/view/${file.name}`,
-                download : `https://clone-you-tube.herokuapp.com/download/${file.name}`
+                view : `https://youtubebackend12.herokuapp.com/view/${file.name}`,
+                download : `https://youtubebackend12.herokuapp.com/download/${file.name}`
             },
             title : req.body.title,
             date : Date.now(),
